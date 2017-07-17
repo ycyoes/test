@@ -1,0 +1,16 @@
+CACHE MANIFEST
+
+CACHE:
+# 需要缓存的列表
+${ctxStatic}/jquery/jquery-1.8.3.min.js
+${ctxStatic}/bootstrap/2.3.1/js/bootstrap.min.js
+${ctxStatic}/bootstrap/2.3.1/css_cerulean/bootstrap.min.css
+${ctxStatic}/jquery-select2/3.4/select2.min.css
+${ctxStatic}/jerichotab/css/jquery.jerichotab.css
+NETWORK:
+# 不需要缓存的
+4.jpg
+
+FALLBACK:
+# 访问缓存失败后，备用访问的资源，第一个是访问源，第二个是替换文件*.html /offline.html
+2.jpg/3.jpg
